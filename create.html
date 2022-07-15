@@ -28,6 +28,21 @@
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/2.1.4/toastr.min.js"></script>
   <style>
+
+.toast-success {
+	background: white;
+    }
+	#toast-container > .toast-success {
+    
+    
+    color:black;
+}
+.toast-progress {
+	background-color: rgb(211, 87, 197);
+}
+
+
+
       html,
 body {
   overflow: hidden;
@@ -371,7 +386,7 @@ div > a {
 
 toastr.options = {
   "positionClass" : "toast-top-center",
-          "closeButton" : false,
+          "closeButton" : true,
           "debug" : false,
           "newestOnTop" : false,
           "progressBar" : true,
